@@ -2,29 +2,11 @@
 
 body {
   font-family: "Quicksand";
+  font-size: 3ex;
   color: white;
 
 }
 
-.animated_background {
-  width: 100%;
-  height: 100vh;
-  align-items: center;
-  background-size: 300% 300%;
-  background-image: linear-gradient(-35deg,  
-        rgba(50  ,50  ,200,1) 0%, 
-        rgba(30  ,30  ,70 ,1) 15%, 
-        rgba(0   ,0   ,30 ,1) 60%, 
-        rgba(0   ,10  ,20 ,1) 100%
-  );  
-  animation: AnimateBG 10s ease infinite;
-}
-
-@keyframes AnimateBG { 
-  0%   {background-position:0% 50%}
-  50%  {background-position:100% 50%}
-  100% {background-position:0% 50%}
-}
 
 /* En css podemos tomar en cuenta dos clases de marcadores
  * las clases --- class   representadas en css cono .class #VARIOS ELEMENTOS
