@@ -1,0 +1,13 @@
+/*Este es un comentario de css sera necesario cuando queramos indicar algo en css*/
+
+body {
+  font-family: "Quicksand";
+  font-size: 3ex;
+  color: white;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+
+}
+

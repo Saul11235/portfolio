@@ -1,0 +1,30 @@
+
+/*general  styles */
+
+body {
+  /*general  configs*/
+  margin:0px;
+  padding:0px;
+  color:white;
+  font-family:"Quicksand";
+  font-size:1.5em;
+}
+
+ul {
+  margin:0px;
+  padding:0px;
+}
+
+li {
+  margin:0px;
+  padding:0px;
+  list-style-type:none;
+}
+
+a {
+  background-color:green;
+  border-radius:30px;
+}
+
+
+
