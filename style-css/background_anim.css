@@ -4,11 +4,10 @@
 body {
   background-attachment:fixed;
   background-size: 300% 300%;
-  background-image: linear-gradient(-45deg,
- 	 rgb(20, 10, 230 ) 0%,
-	 rgb(20, 50, 150 ) 25%,
-	 rgb(10, 30, 110 ) 40%,
-	 rgb( 0, 10, 0   ) 100%
+  background-image:
+     /*  https://cssgradient.io/  */
+     linear-gradient(90deg, rgba(58,97,180,1) 0%, rgba(131,58,180,1) 29%, rgba(253,29,29,1) 71%, rgba(252,176,69,1) 100%);
+
 	 );
   -webkit-animation: AnimateBG 10s ease infinite;
           animation: AnimateBG 10s ease infinite;

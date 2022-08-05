@@ -10,6 +10,16 @@
     <link rel="stylesheet" href="style-css/action_styles.css"     type="text/css"/>
     <link rel="stylesheet" href="style-css/responsive_styles.css" type="text/css"/>
 
+    <link rel="stylesheet" href="style-css/frame_presentation.css"   type="text/css"/>
+    <link rel="stylesheet" href="style-css/frame_skills.css"         type="text/css"/>
+    <link rel="stylesheet" href="style-css/frame_projects.css"       type="text/css"/>
+    <link rel="stylesheet" href="style-css/frame_other_projects.css" type="text/css"/>
+    <link rel="stylesheet" href="style-css/frame_contact.css"        type="text/css"/>
+
+
+
+
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand"/>
     <meta name="viewport" content="widtn=device-widtn, initial-scale=1.0"/> 
 
@@ -18,13 +28,17 @@
 
    <!-- --------------------------------- -->
 
-  <div class="frame"> 
-    <h1>Presentation</h1>
-    <div class="animation"><h1>Hi Im Edwin Saul :)</h1> </div>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+  <div class="frame" id="presentation"> 
+    <h1 id="title">Presentation</h1>
+     
+    <div id="animation">
+      <div id="hi_im_Edwin_Saul">Hi Im Edwin Saul :)</div>
+    </div>
 
-   <div>
+    <script src="javascript/animate_text.js"></script>
+    
+
+   <div id="lateral_pan">
      <p>Hi i'm a software developer from Cusco, Perú see my links </p>
 
 
@@ -62,6 +76,7 @@
 
 
    </div>  
+  </div>
 
 
 
@@ -70,9 +85,11 @@
 
    <!-- --------------------------------- -->
 
-  <div class="frame"> 
+  <div class="frame" id="skills"> 
     <h1>Skills</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+
+    <p>I like to learn constantly, but I feel comfortable with these technologies. </p>
+
 
     <h2>my skills</h2>
 
@@ -81,26 +98,33 @@
        <!------------>
        <li>
 	   <div>
+	     <a href="skills/skill_python.html">
 	    <h3>python</h3>
 	    <p> i can write hello world</p>
 	    <img src="icons/logo.svg"/>
+	     </a>
 	   </div>
+
        </li>
 
        <!------------>
        <li>
 	   <div>
+	     <a href="skills/skill_flask.html">
 	    <h3>Flask</h3>
 	    <p> i can write hello world on flask</p>
 	    <img src="icons/logo.svg"/>
+	     </a>
 	   </div>
        </li>
        <!------------>
        <li>
 	   <div>
+	     <a href="skills/skill_godot.html">
 	    <h3>godot</h3>
 	    <p>i can write simple games</p>
 	    <img src="icons/logo.svg"/>
+	     </a>
 	   </div>
        </li>
        <!------------>
@@ -110,9 +134,9 @@
 
    <!-- --------------------------------- -->
 
-  <div class="frame"> 
+  <div class="frame"  id="projects"> 
     <h1>My Projects</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+    <p>some projects in which I have participated </p>
 
     <h2>my projects</h2>
 
@@ -120,7 +144,7 @@
        <!------------>
        <li>
 	   <div>
-	     <a href="">
+	     <a href="projects/project_frame3dd_py.html">
 	      <h3>frame3dd_py</h3>
 	      <p> a package for use frame3dd from python</p>
 	      <img src="icons/logo.svg"/>
@@ -131,7 +155,7 @@
        <!------------>
        <li>
 	   <div>
-	     <a href="">
+	     <a href="projects/project_sudoku_prime.html">
 	      <h3>sudoku prime</h3>
 	      <p> a sudoku for hp prime calculator</p>
 	      <img src="icons/logo.svg"/>
@@ -148,11 +172,10 @@
 
    <!-- --------------------------------- -->
 
-  <div class="frame"> 
-    <h1>Another projects</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-
-    <h2>Another projects</h2>
+  <div class="frame"  id="other" > 
+    <h1>Other projects</h1>
+    <p>other simpler projects</p>
+    <h2>Other projects</h2>
 
      <ul>
        <!------------>
@@ -187,9 +210,9 @@
 
    <!-- --------------------------------- -->
 
-  <div class="frame"> 
+  <div class="frame" id="contact"> 
     <h1>Contact</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+      <p>  Do you want us to collaborate together?</p>
 
     <h2>contact</h2>
 
