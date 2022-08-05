@@ -16,14 +16,21 @@ ul {
 }
 
 li {
-  margin:0px;
-  padding:0px;
+  margin:15px;
+  padding:25px;
   list-style-type:none;
+  background-color:black;
+  border-radius:30px;
+  color:white;
+
+  display:flex;
+  
+  
 }
 
 a {
-  background-color:green;
-  border-radius:30px;
+  color:inherit;
+  text-decoration:inherit;
 }
 
 

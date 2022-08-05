@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50"
+   height="50"
+   viewBox="0 0 13.229166 13.229167"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="ico-python.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="10.566573"
+     inkscape:cy="56.522836"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g854"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1350"
+     inkscape:window-height="729"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g854"
+       transform="matrix(0.31720202,0,0,0.31720202,0.29622561,0.17833199)"
+       style="fill:#000080">
+      <path
+         id="rect2"
+         style="fill:#ffffff;stroke-width:1.19887"
+         d="M 25.097656 0.67382812 C 18.455896 0.67382812 13.107422 3.3470874 13.107422 6.6679688 L 13.107422 11.326172 L 25.339844 11.326172 L 25.339844 12.599609 L 25.339844 14.785156 L 3.9453125 14.785156 L 3.9453125 14.478516 C 2.2485872 16.591659 1.1191406 20.344126 1.1191406 24.652344 C 1.1191406 31.294104 3.7924009 36.640625 7.1132812 36.640625 L 10.755859 36.640625 L 10.859375 35.039062 L 11.175781 31.566406 L 12.753906 26.201172 L 14.583984 24.306641 L 18.435547 23.169922 L 22.980469 23.423828 L 26.958984 23.423828 L 30.335938 23.234375 L 32.923828 22.822266 L 34.945312 21.623047 L 35.923828 19.414062 L 36.617188 13.542969 L 36.744141 11.238281 L 37.085938 10.572266 L 37.085938 6.6679688 C 37.085938 3.3470874 31.739417 0.67382812 25.097656 0.67382812 z M 19.197266 3.796875 A 3.0304575 2.8094868 0 0 1 22.226562 6.6074219 A 3.0304575 2.8094868 0 0 1 19.197266 9.4160156 A 3.0304575 2.8094868 0 0 1 16.166016 6.6074219 A 3.0304575 2.8094868 0 0 1 19.197266 3.796875 z M 38.695312 12.662109 L 38.859375 14.646484 L 38.125 20.603516 L 35.691406 23.927734 L 33.191406 25.066406 L 27.455078 25.646484 L 22.121094 25.625 L 17.767578 26.160156 L 15.134766 27.521484 L 13.416016 34.708984 L 13.503906 37.277344 C 13.503906 37.277344 13.295757 37.826217 13.107422 38.339844 L 13.107422 42.634766 C 13.107422 45.955646 18.455896 48.628906 25.097656 48.628906 C 31.739417 48.628906 37.085938 45.955646 37.085938 42.634766 L 37.085938 37.923828 L 25.123047 37.923828 L 25.123047 36.652344 L 25.123047 34.464844 L 46.517578 34.464844 L 46.517578 34.476562 C 48.063691 32.312732 49.074219 28.729424 49.074219 24.652344 C 49.074219 18.010583 46.400958 12.662109 43.080078 12.662109 L 38.695312 12.662109 z M 31 39.900391 A 3.0304575 2.8094868 0 0 1 34.029297 42.710938 A 3.0304575 2.8094868 0 0 1 31 45.519531 A 3.0304575 2.8094868 0 0 1 27.96875 42.710938 A 3.0304575 2.8094868 0 0 1 31 39.900391 z "
+         transform="matrix(0.83411617,0,0,0.83411617,-0.9338705,-0.5622032)" />
+      <line
+         x1="10"
+         y1="9.5"
+         x2="20"
+         y2="9.5"
+         stroke="#ffffff"
+         id="line10"
+         style="fill:#000080" />
+      <line
+         x1="20"
+         y1="30.5"
+         x2="30"
+         y2="30.5"
+         stroke="#ffffff"
+         id="line12"
+         style="fill:#000080" />
+    </g>
+  </g>
+</svg>
