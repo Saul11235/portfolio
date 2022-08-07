@@ -82,6 +82,8 @@ a {
   color:white;
   text-decoration:none;
   transition: background-color 0.5s;
+  text-align:center;
+  font-size:2.5ex;
 }
 
 a:hover  {
@@ -114,11 +116,13 @@ ul  li  {
 /*footer --------------------*/
 
 footer {
+  background-color:black;
   margin:0px;
   margin-top:30px;
   height:100px;
   width:100%;
   display:flex;
+ box-shadow: 0 50vh 0 50vh #000;
 
 }
 footer a {
