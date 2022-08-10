@@ -64,12 +64,28 @@ body h1 {
 
 /*presentation*/
 #presentation {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+#presentation :first-child {
+  min-width:300px;
+  align-self:stretch;
+  max-width: 40%;
 }
 
 #presentation_rigth {
+  min-width:200px;
+  max-width: 100%;
   padding:30px;
   display: flex;
   flex-direction:column;
+  align-self:stretch;
+}
+
+#presentation_rigth p {
+  max-width: 100%;
 }
 
 /*hyperlinks---------------*/
